@@ -1,3 +1,4 @@
-.hero {
-background-color: rgb(156, 98, 85);
+.hero .container {
+  background-color: #576F35;
+  padding-top: 100px;
 }
