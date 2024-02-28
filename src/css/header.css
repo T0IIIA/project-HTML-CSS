@@ -11,9 +11,9 @@
   background-color: #576f35;
   /* background-color: transparent; */
 
-  position: absolute;
+  /* position: absolute;
   width: 100%;
-  z-index: 999;
+  z-index: 999; */
   padding-top: 32px;
 }
 .page-nav {
@@ -54,7 +54,7 @@
   opacity: 0;
   visibility: hidden;
   pointer-events: auto;
-  background-color: 7;
+  background-color: #7A3145;
 }
 
 .mobile-menu.is-open {
