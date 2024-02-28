@@ -1,3 +1,13 @@
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./hero.css');
+@import url('./how_it_works.css');
+@import url('./discount.css');
+@import url('./vegetables.css');
+@import url('./reviews.css');
+@import url('./your_order.css');
+@import url('./footer.css');
+
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -105,12 +115,3 @@ a {
 }
 
   /* ------------------------import-styles--------------------------- */
-@import url('./reset.css');
-@import url('./header.css');
-@import url('./hero.css');
-@import url('./how_it_works.css');
-@import url('./discount.css');
-@import url('./vegetables.css');
-@import url('./reviews.css');
-@import url('./your_order.css');
-@import url('./footer.css');
