@@ -35,12 +35,46 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
   font-family: 'Inter Tight', sans-serif;
+  background-color: #7A3145;
+  color: #FBFBFB;
+  font-weight: 500;
+  line-height: 1.29;
+  margin: 0;
 }
 
 main {
   flex-grow: 1;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.01em;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
 }
 
 ul {
@@ -55,57 +89,40 @@ img {
   object-fit: cover;
 }
 
-/* h1 {
-  color: #FFF;
-  text-align: center;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  max-width: 216px;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
-  margin: 0 auto 72px;
-}
-
-h2 {
-  color: #2E2F42;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-.title {
-  color: #2E2F42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.20;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-} */
-
-/* ================================================================ */
-
 .container {
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
+/* ================================= min-width: 768px =============================== */
+
 @media screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
   .container {
     max-width: 768px;
     padding: 0 32px;
   }
+
+  h1 {
+    font-size: 76px;
+  }
+
+  h2 {
+    font-size: 64px;
+    line-height: 1;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
 }
+
+/* =============================== min-width: 1280px ================================= */
 
 @media screen and (min-width: 1280px) {
   .container {
@@ -113,5 +130,3 @@ a {
     padding: 0 100px;
   }
 }
-
-  /* ------------------------import-styles--------------------------- */
