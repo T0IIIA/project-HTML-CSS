@@ -8,22 +8,6 @@
 @import url('./your_order.css');
 @import url('./footer.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
 *,
 *::before,
 *::after {
@@ -39,7 +23,6 @@ body {
   flex-direction: column;
   max-width: 100%;
   font-family: 'Inter Tight', sans-serif;
-  background-color: #7A3145;
   color: #FBFBFB;
   font-weight: 500;
   line-height: 1.29;
@@ -55,6 +38,7 @@ h1 {
   font-weight: 600;
   line-height: 1;
   letter-spacing: -0.01em;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -63,6 +47,7 @@ h2 {
   font-weight: 600;
   line-height: 1.04;
   letter-spacing: -0.01em;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -95,6 +80,7 @@ img {
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
+  background-color: #7A3145;
 }
 
 /* ================================= min-width: 768px =============================== */
