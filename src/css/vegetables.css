@@ -1,0 +1,91 @@
+
+.vegetables {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+background-color: #7a3145;
+padding: 100px;
+max-width: 1280px;
+height: 1229px;
+
+}
+
+.block-container {
+width: 626px;
+height: 193px;
+gap: 25px
+
+}
+.vegetable-title {
+font: 600 64px / 1 "Inter Tight", sans-serif;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #fbfbfb;
+
+}
+
+.title-part {
+font: 600 64px / 1 "Inter Tight", sans-serif;
+color: rgba(251, 251, 251, 0.3);
+text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.vegetable-description {
+font: 500 16px / 1.25 "Inter Tight", sans-serif;
+color: #fbfbfb;
+row-gap: 50px;
+}
+
+.vegetable-basket {
+flex-direction: row;
+gap: 21px;
+width: 1080px;
+height: 786px;
+}
+
+.card {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 10px;
+border-radius: 40px;
+padding: 32px;
+width: 346px;
+height: 379px;
+background: #fbfbfb;
+}
+
+.section {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 10px;
+width: 282px;
+height: 315px;
+}
+
+.text {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 12px;
+}
+
+.vegetable-name {
+font: 600 32px / 1 "Inter Tight", sans-serif;
+letter-spacing: -0.01em;
+color: #7a3145;
+}
+
+.vegetable-price {
+font: 600 14px / 1.28571 "Inter Tight", sans-serif;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #141414;
+}
+
