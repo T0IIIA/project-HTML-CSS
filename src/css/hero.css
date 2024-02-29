@@ -1,4 +1,5 @@
-.hero .container {
+.hero {
   background-color: #576F35;
   padding-top: 100px;
+  padding-bottom: 40px;
 }
