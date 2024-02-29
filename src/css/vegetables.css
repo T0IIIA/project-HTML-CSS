@@ -4,7 +4,7 @@ align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
 background-color: #7a3145;
-padding: 100px;
+padding: 100px 20px;
 max-width: 1280px;
 height: 1229px;
 }
