@@ -1,5 +1,29 @@
-li {
+ul li {
   list-style-type: none;
+}
+
+.container {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+  }
+}
+
+.reviews {
+  padding: 80px 20px;
+  width: 375px;
+  height: 662px;
 }
 
 .reviews-title {
@@ -24,9 +48,43 @@ li {
 }
 
 .reviews-li {
+}
+
+.reviews-picture {
+  margin-bottom: 24px;
+}
+
+.reviews-one {
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
   padding: 20px 16px;
   width: 335px;
   height: 238px;
+}
+
+.reviews-li-tab {
+  display: none;
+}
+
+.reviews-li-deck {
+  display: none;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+}
+
+.title-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
 }
