@@ -1,4 +1,4 @@
-.order {
+.your-order {
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #7A3145;
@@ -19,4 +19,13 @@
     line-height: 1.29;
     color: #FBFBFB;
     margin-bottom: 40px;
+}
+
+.order {
+    max-width: 335px;
+    background-color: #FBFBFB;
+}
+
+.order-text {
+    color: #141414;
 }
