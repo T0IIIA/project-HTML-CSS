@@ -19,8 +19,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   max-width: 100%;
   font-family: 'Inter Tight', sans-serif;
   color: #FBFBFB;
@@ -29,7 +27,6 @@ body {
   margin: 0;
   background-color: #7A3145;
   min-height: 100vh;
-  max-width: 100%;
 }
 
 main {
@@ -65,7 +62,7 @@ a {
   text-decoration: none;
 }
 
-ul {
+ul, ol {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -83,7 +80,6 @@ img {
   max-width: 375px;
   margin: 0 auto;
   padding: 0 20px;
-  margin: 0 auto;
 }
 
 /* ================================= min-width: 768px =============================== */
