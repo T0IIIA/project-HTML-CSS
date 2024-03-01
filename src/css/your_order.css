@@ -22,10 +22,139 @@
 }
 
 .order {
+    border-radius: 30px;
+    padding: 40px 20px;
     max-width: 335px;
     background-color: #FBFBFB;
 }
 
 .order-text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
     color: #141414;
+}
+
+.order-text-span {
+    color: #7A3145;
+}
+
+.order-span {
+    color: #576F35;
+}
+
+.order-soc {
+    margin-top: 20px;
+    background-color: #576F35;
+    border-radius: 30px;
+    padding: 40px 20px;
+    max-width: 335px;
+}
+
+.order-picture {
+    border-radius: 15px;
+    box-shadow: 0 4px 4px 0 rgba(20, 20, 20, 0.3);
+}
+
+.order-soc-text {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
+}
+
+.order-soc-list {
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-soc-item {
+    display: flex;
+}
+
+
+.order-soc-link {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    color: #FBFBFB;
+}
+
+.order-soc-span {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    color: #FBFBFB;
+    margin: 0 8px;
+}
+
+.y-order {
+    margin-top: 8px;
+}
+
+.order-form {
+    margin-top: 40px;
+}
+
+.order-field {
+    margin-bottom: 15px;
+}
+
+.order-input {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    border-radius: 30px;
+    padding: 14px 0 14px 16px;
+    width: 100%;
+    height: 46px;
+}
+
+.order-input::placeholder {
+    color: #141414;
+}
+
+.order-textarea {
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    border-radius: 15px;
+    padding: 14px 0px 59px 16px;
+    width: 100%;
+    height: 91px;
+    resize: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #141414;
+}
+
+.order-comment {
+    margin-bottom: 20px;
+}
+
+.order-textarea::placeholder {
+    color: #141414;
+}
+
+.order-btn {
+    background-color: #576F35;
+    border-radius: 30px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.01em;
+    color: #FBFBFB;
 }
