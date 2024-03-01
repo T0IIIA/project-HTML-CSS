@@ -1,99 +1,91 @@
-
 /* container */
 .hero {
-  background-color: #576F35;
+  background-color: #576f35;
   padding-top: 100px;
-        display: flex;
-      position: relative;
-      padding: 0;
+  display: flex;
+  position: relative;
+  padding: 0;
 }
 /* text-hero */
-.hero-left{
-  margin: 20px;
+.hero-left {
+  padding: 100px 20px 0 20px;
 }
-.h-hero {
-margin-bottom: 20px; 
-}
-.paragraph-hero{
-  font: 500 14px / 1 "Inter Tight", sans-serif;
-  color: #fbfbfb;
+
+.paragraph-hero {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
   margin-bottom: 40px;
-
 }
 
-.hero-img{
+.hero-img {
   max-width: 375px;
 }
 .hero .container {
   padding: 0;
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .h-hero {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
   }
-  .hero{
-  background-color: #576F35;
-  padding-top: 122px;
-        display: flex;
-      position: relative;
-      padding: 0;
-
+  .hero {
+    background-color: #576f35;
+    padding-top: 122px;
+    display: flex;
+    position: relative;
+    padding: 0;
   }
-    .hero-left{
-    margin: 32px;
+  .hero-left {
+    padding: 122px 32px 0 32px;
   }
-    .paragraph-hero{
-  font: 500 14px / 1 "Inter Tight", sans-serif;
-  color: #fbfbfb;
-  margin-bottom: 50px;
+  .paragraph-hero {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+    width: 603px;
   }
-    .hero-img{
+  .hero-img {
     max-width: 768px;
   }
-    .hero .container{
+  .hero .container {
     padding: 0;
   }
 }
 @media screen and (min-width: 1280px) {
-  .container{
-  padding-right: 0;
+  .container {
+    padding-right: 0;
   }
-  .hero{
-      background-color: #576F35;
-      display: flex;
-      position: relative;
-      padding: 0;
+  .hero {
+    background-color: #576f35;
+    display: flex;
+    position: relative;
+    padding: 0;
   }
-    .hero-left{
+  .hero-left {
     margin: 238px 0 0 0;
+    padding: 0;
     width: 502px;
   }
-    .h-hero{
-  margin-bottom: 128px;
+  .h-hero {
+    margin-bottom: 128px;
   }
-    .paragraph-hero{
-  font-weight: 500;
-  font-size: 16px;
-  color: #fbfbfb;
-  width: 472px;
-  line-height: 1.25em;
+  .paragraph-hero {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fbfbfb;
+    width: 470px;
+    line-height: 1.25em;
+    
   }
-    .hero .container{
+  .hero .container {
     padding: 0;
     padding-left: 100px;
   }
   .hero-container {
-display: flex;
-flex-direction: row;
-gap: 28px;
-padding-top: 0;
-padding-right: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    padding-top: 0;
+    padding-right: 0;
+  }
 }
-}
-
-
-
-
-
-
-
