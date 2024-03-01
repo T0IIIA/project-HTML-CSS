@@ -3,7 +3,6 @@
   flex-direction: column;
   padding-top: 40px;
   padding-bottom: 40px;
-  /* min-height: 520px; */
 }
 
 .footer-main-container {
@@ -24,7 +23,6 @@
 .footer-text-main {
   margin-top: 14px;
   font-size: 14px;
-  max-width: 296px;
 }
 
 .footer-nav-container {
@@ -89,7 +87,6 @@
   .page-footer .footer-container {
     padding-top: 32px;
     padding-bottom: 32px;
-    /* min-height: 479px; */
   }
 
   .footer-main-container {
@@ -130,8 +127,9 @@
     gap: 25px;
   }
 
-  .nav-item-link {
+  .footer-nav-list .nav-item-link {
     font-size: 32px;
+    white-space: nowrap;
   }
 
   .footer-address {
@@ -165,7 +163,6 @@
   .page-footer .footer-container {
     padding-top: 50px;
     padding-bottom: 50px;
-    /* min-height: 391px; */
   }
 
   .footer-main-container {
@@ -178,6 +175,7 @@
   .footer-nav-container {
     flex-direction: row;
     gap: 121px;
+    max-width: 513px;
   }
 
   .footer-policy-container {
