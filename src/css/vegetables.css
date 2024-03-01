@@ -1,5 +1,28 @@
 
 .vegetables {
+background-color: #7a3145;
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+.vegetables {
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+}
+
+@media screen and (min-width: 1280px) {
+.vegetables {
+padding-top: 100px;
+padding-bottom: 100px;
+
+}
+}
+
+
+.vegetable-title {
 display: flex;
 align-items: flex-start;
 justify-content: flex-start;
@@ -89,3 +112,34 @@ text-transform: uppercase;
 color: #141414;
 }
 
+
+
+@media screen and (min-width: 768px) {
+.vegetable-price {
+font: 600 14px / 1.28571 "Inter Tight", sans-serif;
+}
+}
+
+@media screen and (min-width: 1280px) {
+.vegetable-price {
+font: 600 14px / 1.28571 "Inter Tight", sans-serif;
+}
+}
+
+.vegetable-picture {
+margin-top: 14px;
+width: 282px;
+height: 243px;
+}
+
+@media screen and (min-width: 768px) {
+.vegetable-picture {
+margin-top: 10px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+.vegetable-picture {
+margin-top: 10px;
+}
+}
