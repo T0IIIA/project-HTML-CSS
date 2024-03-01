@@ -1,132 +1,111 @@
-.discount {
-    display: flex;
-    padding: 0 10px;
-    flex-direction: column;
+.container.discount {
+  padding: 80px 10px;
 }
 
 .discount-container {
-    position: relative;
-    height: 309px;
-    margin: 80px auto;
+  position: relative;
+  height: 309px;
 }
 
-.advertisement-title {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.background-image {
-    height: 102px;
+.container-background {
+  height: 102px;
+  background-color: #576f35;
+  border-radius: 12px;
 }
 
 .container-text {
-    display: flex;
-    position: absolute;
-    margin: 0 10px;
-    top: 3px;
+  position: absolute;
+  margin: 0 10px;
+  top: 3px;
 }
 
 .advertisement-text {
-    color: #141414;
-    font-family: "Inter Tight";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.04;
-    letter-spacing: -0.015em;
-    text-transform: uppercase;
+  color: #141414;
+  font-family: 'Inter Tight';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
 }
 
 .up-to-40 {
-    color: #fbfbfb;
-    font-family: "Inter Tight";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.04;
-    letter-spacing: -0.015em;
-    text-transform: uppercase;
-
+  color: #fbfbfb;
+  font-family: 'Inter Tight';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
 }
-
 
 /* ========== Media ========== */
 
 /* --- Tablet ---- */
 
 @media screen and (min-width: 768px) {
-    .discount {
-        max-width: 768px;
-        padding: 100px 16px;
-    }
+  .container.discount {
+    padding: 100px 16px;
+  }
 
-    .discount-container {
-        height: 288px;
-    }
+  .discount-container {
+    height: 288px;
+  }
 
-    .container-text {
-        margin: 0 16px;
-        top: 8px;
-        height: auto;
-    }
+  .container-text {
+    margin: 0 16px;
+    top: 8px;
+  }
 
-    .background-image {
-        max-width: 100%;
-        height: 86px;
-    }
+  .container-background {
+    min-width: 100%;
+    height: 86px;
+  }
 
-    .advertisement-text {
-        font-size: 64px;
-        line-height: 1.09;
-    }
+  .advertisement-text {
+    font-size: 64px;
+    line-height: 1.09;
+  }
 
-    .up-to-40 {
-        font-size: 64px;
-        line-height: 1.09;
-    }
+  .up-to-40 {
+    font-size: 64px;
+    line-height: 1.09;
+  }
 }
 
 /* --- Desktop --- */
 
 @media screen and (min-width: 1280px) {
-    .discount {
-        max-width: 1280px;
-        padding: 100px;
-    }
+  .container.discount {
+    padding: 100px;
+  }
 
-    .discount-container {
-        height: 240px;
-    }
+  .discount-container {
+    height: 240px;
+  }
 
-    .container-text {
-        margin: 0 13px;
-        height: 100%;
-        top: 0;
-    }
+  .container-text {
+    margin: 0 13px;
+    top: 0;
+  }
 
-    .advertisement-text {
-        font-size: 76px;
-        line-height: 1.05;
-    }
+  .advertisement-text {
+    font-size: 76px;
+    line-height: 1.05;
+  }
 
-    .up-to-40 {
-        font-size: 76px;
-        line-height: 1.05;
-    }
+  .up-to-40 {
+    font-size: 76px;
+    line-height: 1.05;
+  }
 
-    .background-image {
-        width: 808px;
-    }
+  .container-background {
+    width: 808px;
+  }
 
-    br {
-        display: none;
-    }
+  br {
+    display: none;
+  }
 }
