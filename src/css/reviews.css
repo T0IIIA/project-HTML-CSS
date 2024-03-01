@@ -1,6 +1,6 @@
 .reviews {
   padding: 80px 20px;
-  background-color: FBFBFB;
+  background-color: #fbfbfb;
 }
 
 .reviews-title {
@@ -24,18 +24,19 @@
   flex-wrap: wrap;
   justify-content: center;
   border: 1px solid rgba(122, 49, 69, 0.3);
-  border-radius: 24px;
   padding: 20px 16px;
 }
 
 .reviews-item {
+  border-radius: 24px;
   padding-top: 20px;
   padding-bottom: 38px;
   padding-left: 16px;
   padding-right: 16px;
 }
 
-.reviews-item:nth-child(2) .reviews-item:nth-child(3) {
+.reviews-item:nth-child(2),
+.reviews-item:nth-child(3) {
   display: none;
 }
 
@@ -69,11 +70,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-
   .reviews-title {
     font-family: var(--font-family);
     font-weight: 600;
@@ -88,7 +84,6 @@
   }
 
   .reviews-list {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     border: 1px solid rgba(122, 49, 69, 0.3);
@@ -97,6 +92,8 @@
     margin-top: 50px;
     margin-left: 32px;
     margin-right: 32px;
+    flex-direction: row;
+    gap: 18px;
   }
 
   .reviews-item {
@@ -104,19 +101,15 @@
     padding-bottom: 42px;
     padding-left: 20px;
     padding-right: 20px;
+    gap: 18px;
   }
 
-  .reviews-item:nth-child(3) {
-    display: none;
+  .reviews-item:nth-child(2) {
+    display: block;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 100px;
-  }
-
   .reviews-title {
     font-family: var(--font-family);
     font-weight: 600;
@@ -144,5 +137,13 @@
 
   .reviews-item {
     padding: 20px 20px 20px 20px;
+  }
+
+  .reviews-item:nth-child(2) {
+    display: block;
+  }
+
+  .reviews-item:nth-child(3) {
+    display: block;
   }
 }
