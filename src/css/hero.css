@@ -3,6 +3,9 @@
 .hero {
   background-color: #576F35;
   padding-top: 100px;
+        display: flex;
+      position: relative;
+      padding: 0;
 }
 /* text-hero */
 .hero-left{
@@ -31,6 +34,10 @@ margin-bottom: 20px;
   .hero{
   background-color: #576F35;
   padding-top: 122px;
+        display: flex;
+      position: relative;
+      padding: 0;
+
   }
     .hero-left{
     margin: 32px;
@@ -49,7 +56,7 @@ margin-bottom: 20px;
 }
 @media screen and (min-width: 1280px) {
   .container{
-    margin: 0 auto;
+  padding-right: 0;
   }
   .hero{
       background-color: #576F35;
@@ -65,13 +72,15 @@ margin-bottom: 20px;
   margin-bottom: 128px;
   }
     .paragraph-hero{
-  font: 500 14px / 1 "Inter Tight", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
   color: #fbfbfb;
   width: 472px;
+  line-height: 1.25em;
   }
     .hero .container{
     padding: 0;
-    margin-left: 100px;
+    padding-left: 100px;
   }
   .hero-container {
 display: flex;
