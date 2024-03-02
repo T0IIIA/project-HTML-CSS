@@ -16,15 +16,6 @@
   align-items: center;
 }
 
-.logo {
-  margin-right: 4px;
-}
-
-.logo-icon {
-  display: flex;
-  align-items: center;
-}
-
 .logo-text {
   margin-right: auto;
 }
@@ -46,20 +37,42 @@
 .header-btn {
   display: none;
 }
-
-.mobile-menu {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   width: 100%;
   height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
-  flex-direction: column;
-  padding: 188px 0;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
+  pointer-events: none;
   visibility: hidden;
+}
+
+.backdrop.is-open {
+  visibility: visible;
+  opacity: 1;
   pointer-events: auto;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 100%;
+  height: 100%;
+  padding: 188px 0;
   background-color: #7a3145;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu.is-open {
@@ -83,6 +96,11 @@
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: none;
   background-color: #7a3145;
+}
+.mobile-menu-icon:hover,
+.mobile-menu-icon:focus{
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
 }
 
 .mobile-menu-icon {
@@ -173,13 +191,10 @@
     padding: 0 32px;
   }
 
-  .logo-icon {
-    width: 18px;
-    height: 18px;
-  }
+
   .logo-text {
-    width: 168px;
-    height: 15px;
+    width: 194px;
+    height: 18px;
   }
   .mobile-menu-icon {
     width: 40px;
@@ -191,33 +206,11 @@
     height: 40px;
   }
 
-  .backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(20, 20, 20, 0.4);
-    border-radius: 4px;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-  }
-
   .mobile-menu {
-    position: absolute;
     top: 50%;
     left: 100%;
     transform: translate(-100%, -50%) scale(1);
     width: 351px;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
@@ -249,7 +242,7 @@
   }
 
   .logo-text {
-    margin-right: 397px;
+    margin-right: 393px;
   }
 
   .header-menu {
