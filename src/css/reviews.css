@@ -1,5 +1,6 @@
-li {
-  list-style-type: none;
+.reviews {
+  padding: 80px 20px;
+  background-color: #fbfbfb;
 }
 
 .reviews-title {
@@ -11,22 +12,127 @@ li {
   text-transform: uppercase;
   color: #141414;
   text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.reviews-text {
+  color: #141414;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
 }
 
 .colortext {
   color: #576f35;
 }
 
-.reviews-ul {
+.reviews-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  border: 1px solid rgba(122, 49, 69, 0.3);
+  padding: 20px 16px;
+  border-radius: 24px;
 }
 
-.reviews-li {
+.reviews-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews-item:nth-child(2),
+.reviews-item:nth-child(3) {
+  display: none;
+}
+
+.reviews-picture {
+  margin-bottom: 24px;
+}
+
+.reviews-one {
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
   padding: 20px 16px;
-  width: 335px;
-  height: 238px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+}
+
+.title-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 104%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding-bottom: 20px;
+    display: flex;
+  }
+
+  .reviews-list {
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    border-radius: 24px;
+    flex-direction: row;
+    gap: 18px;
+    display: flex;
+  }
+
+  .reviews-item {
+    /* gap: 18px; */
+  }
+
+  .reviews-item:nth-child(2) {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 104%;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+    text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding-bottom: 20px;
+    display: flex;
+  }
+
+  .reviews-list {
+    justify-content: center;
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    border-radius: 24px;
+  }
+
+  .reviews-item {
+    padding: 20px 20px 20px 20px;
+  }
+
+  .reviews-item:nth-child(2) {
+    display: block;
+  }
+
+  .reviews-item:nth-child(3) {
+    display: block;
+  }
 }
