@@ -25,7 +25,11 @@
                 class="order-input"
                 id="user-name"
                 placeholder="Full Name"
+                pattern="[A-z]{2,15}"
+                required
               />
+              <p class="text-valid">Чудово!</p>
+              <p class="text-invalid">Напевно ви ввели щось не вірно</p>
             </div>
           </div>
           <div class="order-field">
@@ -57,7 +61,7 @@
         </form>
       </div>
       <div class="order-soc">
-        <picture>
+        <picture class="your-order-img">
           <source
             media="(min-width: 1280px )"
             srcset="./img/your_order/mix.jpg 1x, ./img/your_order/mix2x.jpg 2x"
