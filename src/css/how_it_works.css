@@ -7,6 +7,25 @@
   padding: 40px 0;
 }
 
+.works-pictyre {
+  position: relative;
+}
+
+.works-pictyre::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 20, 20, 0.3) 0%,
+    rgba(20, 20, 20, 0.3) 100%
+  );
+}
+
 .works-img {
   border-radius: 30px;
 }
