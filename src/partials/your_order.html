@@ -8,90 +8,113 @@
       anyone looking to eat healthier or support local farmers. Order your box
       today and start enjoying the best that nature has to offer!
     </p>
+    <div class="order-form-soc">
     <div class="order">
       <p class="order-text">
         ORDERING <span class="order-text-span">FROM US</span> IS QUICK AND EASY!
         FILL OUT <span class="order-span">THE FORM</span> BELOW AND WE WILL
         CONTACT YOU !
       </p>
-      <form class="order-form">
-        <div class="order-field">
-          <label for="user-name" class="order-label"></label>
-          <div class="order-input-wrap">
-            <input
-              type="text"
-              name="user-name"
-              class="order-input"
-              id="user-name"
-              placeholder="Full Name"
-            />
+        <form class="order-form">
+          <div class="order-field">
+            <label for="user-name" class="order-label"></label>
+            <div class="order-input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                class="order-input"
+                id="user-name"
+                placeholder="Full Name"
+              />
+            </div>
           </div>
-        </div>
-        <div class="order-field">
-          <label for="user-email" class="order-label"></label>
-          <div class="order-input-wrap">
-            <input
-              type="email"
-              name="user-email"
-              class="order-input"
-              id="user-email"
-              placeholder="Email"
-            />
+          <div class="order-field">
+            <label for="user-email" class="order-label"></label>
+            <div class="order-input-wrap">
+              <input
+                type="email"
+                name="user-email"
+                class="order-input"
+                id="user-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
+              <p class="text-valid">Чудово!</p>
+              <p class="text-invalid">Напевно ви ввели щось не вірно</p>
+            </div>
           </div>
-        </div>
-        <div class="order-field order-comment">
-          <label for="user-comment" class="order-label"></label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            class="order-textarea"
-            placeholder="Comment"
-          ></textarea>
-        </div>
-        <button type="submit" class="order-btn">Send</button>
-      </form>
-    </div>
-    <div class="order-soc">
-      <img
-        class="order-picture"
-        srcset="
-          ../img/your_order/mob_mix.jpg   1x,
-          ../img/your_order/mob_mix2x.jpg 2x
-        "
-        src="../img/your_order/mob_mix.jpg"
-        alt="woman with lemon"
-        width="295"
-        height="273"
-      />
-      <p class="order-soc-text">Follow us on our social networks:</p>
-      <div class="order-link">
-        <ul class="order-soc-list">
-          <li class="order-soc-item">
-            <a
-              href="https://www.instagram.com/goitclub/"
-              class="order-soc-link"
-              target="_blank"
-              >instagram</a
-            ><span class="order-soc-span"> / </span>
-          </li>
-          <li class="order-soc-item">
-            <a
-              href="https://www.facebook.com/goITclub/"
-              class="order-soc-link"
-              target="_blank"
-              >facebook</a
-            ><span class="order-soc-span"> / </span>
-          </li>
-          <li class="order-soc-item y-order">
-            <a
-              href="https://www.youtube.com/c/GoIT"
-              class="order-soc-link"
-              target="_blank"
-              >youtube</a
-            >
-          </li>
-        </ul>
+          <div class="order-field order-comment">
+            <label for="user-comment" class="order-label"></label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="order-textarea"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <button type="submit" class="order-btn">SEND</button>
+        </form>
       </div>
+      <div class="order-soc">
+        <picture>
+          <source
+            media="(min-width: 1280px )"
+            srcset="./img/your_order/mix.jpg 1x, ./img/your_order/mix2x.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/your_order/tab_mix.jpg   1x,
+              ./img/your_order/tab_mix2x.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/your_order/mob_mix.jpg   1x,
+              ./img/your_order/mob_mix2x.jpg 2x
+            "
+          />
+          <img
+            class="order-picture"
+            src="./img/your_order/mob_mix.jpg"
+            alt="woman with lemon"
+            width="295"
+            height="273"
+          />
+        </picture>
+        <p class="order-soc-text">Follow us on our social networks:</p>
+        <div class="order-link">
+          <ul class="order-soc-list">
+            <li class="order-soc-item">
+              <a
+                href="https://www.instagram.com/goitclub/"
+                class="order-soc-link"
+                target="_blank"
+                >instagram</a
+              ><span class="order-soc-span"> / </span>
+            </li>
+            <li class="order-soc-item">
+              <a
+                href="https://www.facebook.com/goITclub/"
+                class="order-soc-link"
+                target="_blank"
+                >facebook</a
+              ><span class="order-soc-span"> / </span>
+            </li>
+            <li class="order-soc-item">
+              <a
+                href="https://www.youtube.com/c/GoIT"
+                class="order-soc-link"
+                target="_blank"
+                >youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     </div>
   </div>
 </section>

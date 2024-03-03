@@ -1,91 +1,121 @@
 /* container */
 .hero {
-  background-color: #576f35;
+  background-color: #576F35;
   padding-top: 100px;
-  display: flex;
-  position: relative;
-  padding: 0;
+        display: flex;
+      position: relative;
+      padding: 0;
 }
 /* text-hero */
-.hero-left {
-  padding: 100px 20px 0 20px;
+.hero-left{
+  margin: 20px;
+  margin-top: 100px;
 }
-
-.paragraph-hero {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.28;
+.h-hero {
+margin-bottom: 20px; 
+}
+.paragraph-hero{
   margin-bottom: 40px;
 }
 
-.hero-img {
+.hero-img{
   max-width: 375px;
 }
 .hero .container {
   padding: 0;
 }
-@media screen and (min-width: 768px) {
+.img-container{
+  background-image: url(../img/hero/mob_fruits.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:370px;
+}
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.img-container{
+background-image: url(../img/hero/mob_fruits2x.jpg);
+} 
+}
+
+@media screen and (min-width: 768px){
   .h-hero {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
+  margin-top: 50px;
   }
-  .hero {
-    background-color: #576f35;
-    padding-top: 122px;
-    display: flex;
-    position: relative;
-    padding: 0;
+  .hero{
+  padding-top: 122px;
+        display: flex;
+      position: relative;
+      padding: 0; 
   }
-  .hero-left {
-    padding: 122px 32px 0 32px;
+    .hero-left{
+    margin: 32px;
+    margin-top: 122px;
   }
-  .paragraph-hero {
-    font-size: 16px;
-    line-height: 1.25;
-    margin-bottom: 50px;
-    width: 603px;
+    .paragraph-hero{
+  margin-bottom: 50px;
+  width: 603px;
   }
-  .hero-img {
+    .hero-img{
     max-width: 768px;
   }
-  .hero .container {
+    .hero .container{
     padding: 0;
   }
+  .img-container{
+  background-image: url(../img/hero/tab_fruits.jpg);
+  height:539px;
+}
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.img-container{
+background-image:url(../img/hero/tab_fruits2x.jpg);
+} 
+}
 }
 @media screen and (min-width: 1280px) {
-  .container {
-    padding-right: 0;
+  .container{
+  padding-right: 0;
   }
-  .hero {
-    background-color: #576f35;
-    display: flex;
-    position: relative;
-    padding: 0;
-  }
-  .hero-left {
+    .hero-left{
     margin: 238px 0 0 0;
-    padding: 0;
     width: 502px;
   }
-  .h-hero {
-    margin-bottom: 128px;
+    .h-hero{
+  margin-bottom: 128px;
+  margin-top: 0;
   }
-  .paragraph-hero {
-    font-weight: 500;
-    font-size: 16px;
-    color: #fbfbfb;
-    width: 470px;
-    line-height: 1.25em;
-    
+    .paragraph-hero{
+  font-weight: 500;
+  font-size: 16px;
+  color: #fbfbfb;
+  width: 472px;
+  line-height: 1.25em;
+  margin-bottom: 0;
   }
-  .hero .container {
+    .hero .container{
     padding: 0;
     padding-left: 100px;
   }
   .hero-container {
-    display: flex;
-    flex-direction: row;
-    gap: 28px;
-    padding-top: 0;
-    padding-right: 0;
-  }
+display: flex;
+flex-direction: row;
+gap: 28px;
+padding-top: 0;
+padding-right: 0;
+}
+.img-container{
+  background-image: url(../img/hero/fruits.jpg);
+  height: 800px;
+      width: 650px;
+}
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+.img-container{
+background-image:url(../img/hero/fruits2x.jpg);
+} 
+}
 }
