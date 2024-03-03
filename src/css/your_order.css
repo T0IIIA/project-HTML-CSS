@@ -75,6 +75,7 @@
 
 .order-input:focus {
     border: 1px solid #7A3145;
+    outline: none;
 }
 
 .order-input:not(:placeholder-shown):invalid {
@@ -122,6 +123,11 @@
     letter-spacing: -0.02em;
     color: #141414;
     overflow: hidden;
+}
+
+.order-textarea:focus {
+    border: 1px solid #7A3145;
+    outline: none;
 }
 
 .order-comment {
