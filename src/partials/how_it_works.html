@@ -1,5 +1,75 @@
-<section class="how-works">
-  <div class="container">
+<section id="how_it_works" class="how_it_works">
+  <div class="background-red">
+    <div class="container container-img">
+      <h2 class="visually-hidden">how it works</h2>
 
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/how_it_works/woman.jpg   1x,
+            ./img/how_it_works/woman2x.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 768px) and (max-width: 1279px)"
+          srcset="
+            ./img/how_it_works/tab_woman.jpg   1x,
+            ./img/how_it_works/tab_woman2x.jpg 2x
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/how_it_works/mob_woman.jpg   1x,
+            ./img/how_it_works/mob_woman2x.jpg 2x
+          "
+        />
+        <img
+          width="640"
+          height="640"
+          class="works-img"
+          src="./img/how_it_works/woman.jpg"
+          alt="happy women #1"
+        />
+      </picture>
+    </div>
+  </div>
+
+  <div class="background-green">
+    <div class="container container-info">
+      <h3 class="header-title">
+        To order your <span class="title-span-text">vegetable</span> basket,
+        simply follow these <span class="title-span-text"> easy steps </span>
+      </h3>
+      <p class="header-text">
+        Our baskets are assembled with care and delivered straight to your
+        doorstep, so you can enjoy the taste of fresh fruit without ever leaving
+        your home.
+      </p>
+
+      <ol class="content-items">
+        <li class="content-item">
+          <p class="text-item">
+            Just choose <span class="text-span">the vegetable</span> you want to
+            order by clicking on the checkboxes
+            <span class="text-span">next to it.</span>
+          </p>
+        </li>
+        <li class="content-item">
+          <p class="text-item">
+            Click on <span class="text-span">the basket</span> and fill out the
+            form.
+          </p>
+        </li>
+        <li class="content-item">
+          <p class="text-item">
+            Sit back and relax! Your
+            <span class="text-span">fresh vegetables</span> basket will be
+            delivered.
+          </p>
+        </li>
+      </ol>
+    </div>
   </div>
 </section>
