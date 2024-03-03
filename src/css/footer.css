@@ -87,7 +87,8 @@
 .footer-policy-container {
   display: flex;
   justify-content: space-between;
-  height: 16px;
+  flex-wrap: wrap;
+  max-height: 16px;
   margin-top: 80px;
 }
 
@@ -99,6 +100,7 @@
   color: rgba(251, 251, 251, 0.5);
   display: flex;
   gap: 8px;
+  flex-shrink: 0;
 }
 
 /* ================================= min-width: 768px =============================== */
