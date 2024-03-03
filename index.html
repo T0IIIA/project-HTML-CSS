@@ -17,7 +17,7 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/project-group-9/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-9/assets/index-7f342e27.css">
+    <link rel="stylesheet" href="/project-group-9/assets/index-48e636bb.css">
   </head>
   <body>
     <header class="header-list">
@@ -312,7 +312,11 @@
                 class="order-input"
                 id="user-name"
                 placeholder="Full Name"
+                pattern="[A-z]{2,15}"
+                required
               />
+              <p class="text-valid">Чудово!</p>
+              <p class="text-invalid">Напевно ви ввели щось не вірно</p>
             </div>
           </div>
           <div class="order-field">
@@ -344,7 +348,7 @@
         </form>
       </div>
       <div class="order-soc">
-        <picture>
+        <picture class="your-order-img">
           <source
             media="(min-width: 1280px )"
             srcset="/project-group-9/assets/mix-9966d439.jpg 1x, /project-group-9/assets/mix2x-5c638d70.jpg 2x"
