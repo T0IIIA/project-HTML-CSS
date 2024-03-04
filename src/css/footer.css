@@ -92,15 +92,37 @@
   margin-top: 80px;
 }
 
+.footer-policy-links {
+  display: flex;
+  flex-shrink: 0;
+  gap: 8px;
+}
+
 .footer-policy-text {
-  font-weight: 500;
   font-size: 12px;
   line-height: 1.3;
   letter-spacing: -0.01em;
   color: rgba(251, 251, 251, 0.5);
   display: flex;
-  gap: 8px;
   flex-shrink: 0;
+}
+
+.footer-policy-container span {
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+  display: flex;
+}
+
+.footer-policy-links a {
+  text-decoration: none;
+  transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-policy-links a:hover,
+.footer-policy-links a:focus {
+  text-decoration: underline;
 }
 
 /* ================================= min-width: 768px =============================== */
@@ -165,6 +187,11 @@
   }
 
   .footer-policy-text {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .footer-policy-container span {
     font-size: 18px;
     line-height: 1.1;
   }
