@@ -15,7 +15,7 @@
         FILL OUT <span class="order-span">THE FORM</span> BELOW AND WE WILL
         CONTACT YOU !
       </p>
-        <form class="order-form">
+        <form id="your-order" class="order-form">
           <div class="order-field">
             <label for="user-name" class="order-label"></label>
             <div class="order-input-wrap">
@@ -25,7 +25,7 @@
                 class="order-input"
                 id="user-name"
                 placeholder="Full Name"
-                pattern="[A-z]{2,15}"
+                pattern="^[A-Z][a-z]+\s[a-zA-Z\s\.]+"
                 required
               />
               <p class="text-valid">Чудово!</p>
@@ -61,11 +61,22 @@
         </form>
       </div>
       <div class="order-soc">
-        <picture class="your-order-img">
+        <picture class="your-order-img"> 
+          <source 
+            srcset="./img/your_order/mix.webp 1x, 
+                    ./img/your_order/mix2x.webp 2x" 
+            type="image/webp" 
+            media="(min-width: 1280px)">
           <source
             media="(min-width: 1280px )"
-            srcset="./img/your_order/mix.jpg 1x, ./img/your_order/mix2x.jpg 2x"
+            srcset="./img/your_order/mix.jpg 1x, 
+                    ./img/your_order/mix2x.jpg 2x"
           />
+          <source 
+           srcset="./img/your_order/tab_mix.webp 1x, 
+                   ./img/your_order/tab_mix2x.webp 2x" 
+           type="image/webp" 
+           media="(min-width: 768px)">
           <source
             media="(min-width: 768px)"
             srcset="
@@ -73,6 +84,11 @@
               ./img/your_order/tab_mix2x.jpg 2x
             "
           />
+          <source 
+           srcset="./img/your_order/mob_mix.webp 1x, 
+                   ./img/your_order/mob_mix2x.webp 2x" 
+           type="image/webp" 
+           media="(max-width: 767px)">
           <source
             media="(max-width: 767px)"
             srcset="
