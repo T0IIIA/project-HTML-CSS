@@ -134,8 +134,8 @@
   border-radius: 12px;
   padding: 12px 16px;
   width: 115px;
-  height: 42px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   
 }
@@ -271,9 +271,9 @@
     text-align: center;
     border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
-    padding: 12px;
-    height: 44px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 12px;    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .header-btn {
