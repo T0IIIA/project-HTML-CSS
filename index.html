@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      href="https://fonts.googleapis.com/css?family=Inter+Tight:500,600,700"
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/project-group-9/commonHelpers.js"></script>
@@ -197,18 +197,31 @@
 
       <section class="vegetables" id="vegetables">
   <div class="container">
-    <h2 class="vegetable-title">organic <span class="title-part">vegetables</span></h2>
-    <p class="vegetable-description">Our organic vegetables are hand-picked from local farms and delivered straight to
-      your doorstep, ensuring that
-      you get
-      the freshest and most nutritious produce possible.</p>
+    <h2 class="vegetable-title">
+      organic <span class="title-part">vegetables</span>
+    </h2>
+    <p class="vegetable-description">
+      Our organic vegetables are hand-picked from local farms and delivered
+      straight to your doorstep, ensuring that you get the freshest and most
+      nutritious produce possible.
+    </p>
     <ul class="vegetable-cards-list">
       <li class="vegetable-item">
         <h3 class="vegetable-name">eggplant</h3>
         <p class="vegetable-price">60 UAH / kg</p>
         <div class="list-vegetable-img">
-          <img class="vegetable-picture" src="/project-group-9/assets/eggplant-801d7ea1.png" alt="Eggplant"
-            srcset="/project-group-9/assets/eggplant-87262cd6.webp 1x, /project-group-9/assets/eggplant2x-0b179cf0.webp 2x, /project-group-9/assets/eggplant-801d7ea1.png 1x, /project-group-9/assets/eggplant2x-844fcd38.png 2x">
+          
+          <picture class="vegetable-picture">
+            <source
+              srcset="/project-group-9/assets/eggplant-87262cd6.webp 1x, /project-group-9/assets/eggplant2x-0b179cf0.webp 2x"
+              type="image/webp"
+            />
+            <source
+              srcset="/project-group-9/assets/eggplant-801d7ea1.png 1x, /project-group-9/assets/eggplant2x-844fcd38.png 2x"
+            />
+            <img src="/project-group-9/assets/eggplant-801d7ea1.png" alt="Eggplant" />
+          </picture>
+
           <ul class="text-veg-hidden">
             <li>calories: 20</li>
             <li>carbs: 5 grams</li>
@@ -225,8 +238,17 @@
         <h3 class="vegetable-name">leek</h3>
         <p class="vegetable-price">60 UAH / kg</p>
         <div class="list-vegetable-img">
-          <img class="vegetable-picture" src="/project-group-9/assets/leek-23732ed6.png" alt="Leek"
-            srcset="/project-group-9/assets/leek-07bb52d9.webp 1x, /project-group-9/assets/leek2x-ce27cadf.webp 2x, /project-group-9/assets/leek-23732ed6.png 1x, /project-group-9/assets/leek2x-e26fd144.png 2x">
+          <picture class="vegetable-picture">
+            <source
+              srcset="/project-group-9/assets/leek-07bb52d9.webp 1x, /project-group-9/assets/leek2x-ce27cadf.webp 2x"
+              type="image/webp"
+            />
+            <source
+              srcset="/project-group-9/assets/leek-23732ed6.png 1x, /project-group-9/assets/leek2x-e26fd144.png 2x"
+            />
+            <img src="/project-group-9/assets/leek-23732ed6.png" alt="Leek" />
+          </picture>
+
           <ul class="text-veg-hidden">
             <li>calories: 61</li>
             <li>omega-3: 0.10 g</li>
@@ -238,12 +260,23 @@
             <li>omega-6: 0.07 g</li>
           </ul>
         </div>
+      </li>
+
       <li class="vegetable-item">
         <h3 class="vegetable-name">mushrooms</h3>
         <p class="vegetable-price">60 UAH / kg</p>
         <div class="list-vegetable-img">
-          <img class="vegetable-picture" src="/project-group-9/assets/mushrooms-36f81e4b.png" alt="Mushrooms"
-            srcset="/project-group-9/assets/mushrooms-3cc9162c.webp 1x, /project-group-9/assets/mushrooms2x-1b12bbec.webp 2x, /project-group-9/assets/mushrooms-36f81e4b.png 1x, /project-group-9/assets/mushrooms2x-5afdf808.png 2x">
+          <picture class="vegetable-picture">
+            <source
+              srcset="/project-group-9/assets/mushrooms-3cc9162c.webp 1x, /project-group-9/assets/mushrooms2x-1b12bbec.webp 2x"
+              type="image/webp"
+            />
+            <source
+              srcset="/project-group-9/assets/mushrooms-36f81e4b.png 1x, /project-group-9/assets/mushrooms2x-5afdf808.png 2x"
+            />
+            <img src="/project-group-9/assets/mushrooms-36f81e4b.png" alt="Mushrooms" />
+          </picture>
+
           <ul class="text-veg-hidden">
             <li>calories: 15</li>
             <li>carbs: 2 grams</li>
@@ -260,8 +293,17 @@
         <h3 class="vegetable-name">corn</h3>
         <p class="vegetable-price">60 UAH / kg</p>
         <div class="list-vegetable-img">
-          <img class="vegetable-picture" src="/project-group-9/assets/corn-e3b2e6e8.png" alt="Corn"
-            srcset="/project-group-9/assets/corn-4edbaf77.webp 1x, /project-group-9/assets/corn2x-ec17a0c7.webp 2x, /project-group-9/assets/corn-e3b2e6e8.png 1x, /project-group-9/assets/corn2x-101d9f80.png 2x">
+          <picture class="vegetable-picture">
+            <source
+              srcset="/project-group-9/assets/corn-4edbaf77.webp 1x, /project-group-9/assets/corn2x-ec17a0c7.webp 2x"
+              type="image/webp"
+            />
+            <source
+              srcset="/project-group-9/assets/corn-e3b2e6e8.png 1x, /project-group-9/assets/corn2x-101d9f80.png 2x"
+            />
+            <img src="/project-group-9/assets/corn-e3b2e6e8.png" alt="Corn" />
+          </picture>
+
           <ul class="text-veg-hidden">
             <li>calories: 77</li>
             <li>carbohydrates: 17.1 grams</li>
@@ -278,8 +320,20 @@
         <h3 class="vegetable-name">sweet potatoes</h3>
         <p class="vegetable-price">60 UAH / kg</p>
         <div class="list-vegetable-img">
-          <img class="vegetable-picture" src="/project-group-9/assets/sweet_potatoes-13bc5f1d.png" alt="Sweet_potatoes"
-            srcset="/project-group-9/assets/sweet_potatoes-d747b2a5.webp 1x, /project-group-9/assets/sweet_potatoes2x-8d390236.webp 2x, /project-group-9/assets/sweet_potatoes-13bc5f1d.png 1x, /project-group-9/assets/sweet_potatoes2x-3ec25e6b.png 2x">
+          <picture class="vegetable-picture">
+            <source
+              srcset="/project-group-9/assets/sweet_potatoes-d747b2a5.webp 1x, /project-group-9/assets/sweet_potatoes2x-8d390236.webp 2x"
+              type="image/webp"
+            />
+            <source
+              srcset="/project-group-9/assets/sweet_potatoes-13bc5f1d.png 1x, /project-group-9/assets/sweet_potatoes2x-3ec25e6b.png 2x"
+            />
+            <img
+              src="/project-group-9/assets/sweet_potatoes-13bc5f1d.png"
+              alt="Sweet_potatoes"
+            />
+          </picture>
+
           <ul class="text-veg-hidden">
             <li>calories: 180</li>
             <li>carbs: 41 g</li>
@@ -296,8 +350,20 @@
         <h3 class="vegetable-name">carrot</h3>
         <p class="vegetable-price">60 UAH / kg</p>
         <div class="list-vegetable-img">
-          <img class="vegetable-picture" src="/project-group-9/assets/sweet_potatoes-13bc5f1d.png" alt="carrot"
-            srcset="/project-group-9/assets/carrot-6197b0f1.webp 1x, /project-group-9/assets/carrot2x-09553896.webp 2x, /project-group-9/assets/carrot-e1b07fe0.png 1x, /project-group-9/assets/carrot2x-994980e6.png 2x">
+          <picture class="vegetable-picture">
+            <source
+              srcset="/project-group-9/assets/carrot-6197b0f1.webp 1x, /project-group-9/assets/carrot2x-09553896.webp 2x"
+              type="image/webp"
+            />
+            <source
+              srcset="/project-group-9/assets/carrot-e1b07fe0.png 1x, /project-group-9/assets/carrot2x-994980e6.png 2x"
+            />
+            <img
+              src="/project-group-9/assets/carrot-e1b07fe0.png"
+              alt="Сarrot"
+            />
+          </picture>
+
           <ul class="text-veg-hidden">
             <li>calories: 94</li>
             <li>protein: 2 grams</li>
@@ -314,6 +380,7 @@
   </div>
 </section>
 
+
       <section class="reviews" id="reviews">
   <div class="container">
     <div class="reviews-title-text">
@@ -327,12 +394,17 @@
     </div>
     <ul class="reviews-list">
       <li class="reviews-item">
-        <img
-          class="reviews-picture"
-          srcset="data:image/webp;base64,UklGRqQDAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFZrb97mhRAIghAIghAGM4OGgcWgZdAxKARDMARBEAT1a4ktnbPfETEBGEvl+lBzd+vtuhGirlX9bL9SBG4+tpVZ3Hy88ozl7nPvNIzVZysPunjEOqR6zDqgetR6qnrceuLikX8OkYUyOqIeux+oHl3+IA1ny7e7x5cv5Alt+SgZXD40RQewek4G9iQCtCQNsCSG1bMSp9lKmiJp5F9V0pQtDVOaFZbEgJakAZJkBzjJCqCnUACQFOVjsQz0AUlwx9fFwil9g4QT/N2DKQ6ShTI6ghJqx3EJJDgrYQTnJYhgpITYMZZ1mjJG0++kx4KJrBMaY3JpgxojIN36KZUVUWm7tW7ubvq4FcJYVlA4IHICAABwDQCdASo5ADgAPpFCm0qlo6IhphVbELASCUDFAIEB+AH6Af0DQAP4BAgH4AWpZwjk9PTOwnAOstuSPyjh+qbggfh9f9GHtLKgm8YY4TvKeI0TzyQj4rD3+S2kG0YkOsn6qAuUse/13ZKxHNsxB+Kdo1JtgAD+73FtJ+sJsPgGYbyN2bBiY8cbzE7EQsss4MwnboE9OOzQlnI7beNBDoydrsFMjBkFv5xATDXUp19a3kPWTBOsJ4dRmmoRX3pJBmJbsOgLHSOBVZ9grmq4hvuGTQU8F0MrlRWNcEUJFxElBC94ff5FZIroCqDX9Tkw6qvYO2Ofr+DIpKSfWEvpQoMjLKf4aJOCcVZuW45JM2CPiTCtkTPyu8McnzuLdTQmU7cCEtNFPmEIwLz7wR9QGLkk1NnNUw9BD0y7DKzrjL3FiOJ9XFHfm6vu6L5pqF0c1tYcxoBq5KJ3oboL2Cm7NkRaflTGsv4jHvs2QrR4fVwDtXUECgFkcuYH2WuSPGi9GNszZjUf2Krv3fAGHwvqfqfrj3/hyjwXbHbZcMYMLw5kSqkyz8AOEBijuhRxiRXjeMaPTnB4a+ujcfaQPjaU+a/3BIeoXcALMd3v176gif8CuOY9tnjYvDuIXa3wBSfGotm0cKCtqGORXbYEjx5nr++qMk2ts5jqazUtuy85EG50OwGXjEjor+8WeQDh2bHWH4dIq7GOvbeYQmSsPZJu+mQIlX9KJvr8QBRg8XxZKOginNMoKyUMlFHu/Q7m7OAFLpt4PPvR1vR9w2KS63tBj5YOR+R5bzD2Tgv7AHKqRIINHeHBCvuFRvpQOfR5Uvf/WnwAAA== 1x, data:image/webp;base64,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 2x, /project-group-9/assets/john_wax-68bfb618.png 1x, /project-group-9/assets/john_wax2x-11128f30.png 2x"
-          src="/project-group-9/assets/john_wax-68bfb618.png"
-          alt="JW"
-        />
+        <picture class="reviews-picture">
+          <source
+            srcset="data:image/webp;base64,UklGRqQDAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFZrb97mhRAIghAIghAGM4OGgcWgZdAxKARDMARBEAT1a4ktnbPfETEBGEvl+lBzd+vtuhGirlX9bL9SBG4+tpVZ3Hy88ozl7nPvNIzVZysPunjEOqR6zDqgetR6qnrceuLikX8OkYUyOqIeux+oHl3+IA1ny7e7x5cv5Alt+SgZXD40RQewek4G9iQCtCQNsCSG1bMSp9lKmiJp5F9V0pQtDVOaFZbEgJakAZJkBzjJCqCnUACQFOVjsQz0AUlwx9fFwil9g4QT/N2DKQ6ShTI6ghJqx3EJJDgrYQTnJYhgpITYMZZ1mjJG0++kx4KJrBMaY3JpgxojIN36KZUVUWm7tW7ubvq4FcJYVlA4IHICAABwDQCdASo5ADgAPpFCm0qlo6IhphVbELASCUDFAIEB+AH6Af0DQAP4BAgH4AWpZwjk9PTOwnAOstuSPyjh+qbggfh9f9GHtLKgm8YY4TvKeI0TzyQj4rD3+S2kG0YkOsn6qAuUse/13ZKxHNsxB+Kdo1JtgAD+73FtJ+sJsPgGYbyN2bBiY8cbzE7EQsss4MwnboE9OOzQlnI7beNBDoydrsFMjBkFv5xATDXUp19a3kPWTBOsJ4dRmmoRX3pJBmJbsOgLHSOBVZ9grmq4hvuGTQU8F0MrlRWNcEUJFxElBC94ff5FZIroCqDX9Tkw6qvYO2Ofr+DIpKSfWEvpQoMjLKf4aJOCcVZuW45JM2CPiTCtkTPyu8McnzuLdTQmU7cCEtNFPmEIwLz7wR9QGLkk1NnNUw9BD0y7DKzrjL3FiOJ9XFHfm6vu6L5pqF0c1tYcxoBq5KJ3oboL2Cm7NkRaflTGsv4jHvs2QrR4fVwDtXUECgFkcuYH2WuSPGi9GNszZjUf2Krv3fAGHwvqfqfrj3/hyjwXbHbZcMYMLw5kSqkyz8AOEBijuhRxiRXjeMaPTnB4a+ujcfaQPjaU+a/3BIeoXcALMd3v176gif8CuOY9tnjYvDuIXa3wBSfGotm0cKCtqGORXbYEjx5nr++qMk2ts5jqazUtuy85EG50OwGXjEjor+8WeQDh2bHWH4dIq7GOvbeYQmSsPZJu+mQIlX9KJvr8QBRg8XxZKOginNMoKyUMlFHu/Q7m7OAFLpt4PPvR1vR9w2KS63tBj5YOR+R5bzD2Tgv7AHKqRIINHeHBCvuFRvpQOfR5Uvf/WnwAAA== 1x, data:image/webp;base64,UklGRpIHAABXRUJQVlA4WAoAAAAQAAAAcAAAbwAAQUxQSAcCAAABkFbbTh5KVwISkFAJSMDBi5PioDigTpCAhEhAQt7M9INCstb8jIgJwORuo1QqcxcR6dxqSXGD2o6OJoNbIa9P2Jt83I6gidtZpuTDKxGqTFyjAtRkcqbFIsuCTAuFKouyX8QdsnDxKwSWpZmmc4csf7i5PIuC7Gf66aJij/PsouY+yyGK7nMUUbXMUETZ8l0RdctXuyh8fLOLyvsXUZT+Gee7Vt2Pcixqsxt0iOLHGBLVwwjPurEbUET5450X9cMr1q++ITEwvmAL+BmJifSIbWhPohgZHlQr6p0XM91NtiPdsB18FcTQcJEtSRfNkvaPF1MdALKFABRbMoBmSwMgxjps1myI1hCSNQmnNQXVmopmDYPt6dZ0iLn/p7o1HWwN29NQrak4rSlI1iSQNRGbNRucNQCaLQ1AtqUAIFsIgLPFA0CzpOHfZEm+CJaEC7AdjOtkR75xdvgbVCsq7oMV8QGaDYynZAM9AlvAeB4toBeo+jHeBv38K2TtCt471o39AATdCEOzZhljHevFbhB816p7DCetIj5MOiV8mjVK+PjU58TnpzYnJjx1OTFl0iRj0qRHwrSx69AJE3vWgD2mdnm97DA78VocsKA/V8oOa3pepQasS7wCR6xNPFsjrB/rTDVAR595Dk4OiobcvmopQF1PZxvVMjmovcVUauP+T2euJdHmMDcAVlA4IGQFAAAwHgCdASpxAHAAPpFGnEslo6KhpJQKqLASCWUGKAEOUSvCZUJpN+D/sg/SXg181oW4647OWxpxZq3lY20u93PNTxFEGEg8FCG4aSDa7/51ftJ9rICe/Hu5EC0rLkRNjxYhEpZ9ypdEXCKcGtBDsEKz0Eq83tXw0Js2b9+H+W0dlJFEnemkxjUzw18b1Mpgoha/53FLbxmDcRXfbvN1JhyGnyvs0QtdMOI/G0s45HseGqUQ4xZTxdMvfHfygpqkBcV2QHSyBCgOmX+iRdQz7lidYu9iDpgozUaw/gBUHd4rpxjoFZDTbf66e5T9gR98Mf04UvtSOC/IrYWAAP78rbT1Bl//mH//8wM//+Xh7Gl0Zly+xNlLGfj4sEwazWb+klKYZ4Nc2dIaNKLMFAwQ8YWWFX0ooj9MjTLTVBX+Snjwlh2CCEa2C4T54CLwKPqmXPHZr5W3m3+HUIxEFIihSsLlTIRtN++lVGon/648aNtsO6rb56hXoOiiESE6B5ElgbmxcET2kYn1qa93kgqgK8R4aBc3Z2KOq5ccavHMTbGh39NCVAbBnPGOv8z1Gjyq5U1IMvTqZccj9XjekVuWrC+QJ8CLV4TNmLrtz3H6Wn5PEQDfyXl4w8FG6ksveNNIpf4IPA4Li4f69aCv/43LV78156MCbbcrKxsBMSFQG5G0Z/YtEYOVT9nvxnSa+TzSD3PaAc0ggQy9NiDb4LiCrhccdDbnNcM2HyCUt0G2wVKjnEXBCxxP2QjQUjq1JUJ4R8itfefd0b50X27HbCz2KJkPqOB5Q5Ff7K1jlaoakJOoGydd7x18ILrZUUm0GWXzszfmV89SbwHQmLJoCwZq659tPLgU8cZ3qtxeT33K0P6n6cmHQLS3WkV0IgWWlEI6ufu6KtIx5gW9ewTIyyYaPcoWESJegw3+rMhtn2clPCT7gaIpqdockiidKtOVGs4D7wBln6335i+HgCfUarteRcEjL+JbNJmAflD/MOMppMp1ImdCnmoeS++NtOLXXGxVd2IcKQcFH7tnyE7/x4Y9AcqnHY/cOTpvVsgdamy8UNOxiwFfZ/SCwxYmp5iUgqfyEKOsOjaJGVjEQhA/JSOItSbEMFyOisEDBT8t7JOUd4ezqrUOkwqdeoI8FYKQg6rogcPqx2TX+TDACDCf4Tsf62MH5tr9kUggge27yWPAqHIXw8zA4k7wT5MWPC96afozy5nv0X2mdX6gBraVpaUcKjXnhA2Sx/JPwBaeRDFMdic6NB6EUkdLwmYO68IDrzkWH/1BJhyw7T/m3ItozzTTo2tW911PmtZR+rzF4yyVu2xcxKtxq2ff8t8RWc658ggdE/ak8VI4cvavrjjrhpOkJkJWKiPz7W5JW2f8Q66M9vDznFwErSnV35NGzoZuZQ4ovD3X9I/8i3eSVn+OruQ7SbjxhJblbwF6hriv7meY9oadeVLjgSsaY+Tr5VPjtdWOMcCEhzYljb+0sEQLT/fif3k8LLB3OxU+JJX9k/DsYVzRVJF1sgvIKWMs7Nkod7BSZMamEWG7zLyVARqTZg06KwVjBwcZW2EPkXYLLfX13fhYgeMhs2FQ0xlANs3nz/iQj0xlDVcDWf/iHRQfnFaREBl7wqzYdtWUUjSIDx4cutu4Y2iGsQyy2e9cMM90jwUEZ9NDAUWi5EbCrS76+fi5uwGpkcGmc78key0Ub14ekRJ8xDlsdYU3QfdS/HGM1WNBsoGVY72J0BZ8q+Mu8RJaODKyX8veEdGsI6ujRyB3hShRTVapvb7Q7Qa159kAMXEYlRXleXz4A7v+ZD9eTbUiBtbnq6yotp8O37hHb9NRuGQcdT8AAAA= 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-group-9/assets/john_wax-68bfb618.png 1x, /project-group-9/assets/john_wax2x-11128f30.png 2x"
+          />
+          <img src="/project-group-9/assets/john_wax-68bfb618.png" alt="man" />
+        </picture>
+
         <div class="container-title-text-person">
           <h3 class="title">John Wax</h3>
           <p class="title-text">
@@ -344,12 +416,17 @@
       </li>
 
       <li class="reviews-item">
-        <img
-          class="reviews-picture"
-          srcset="data:image/webp;base64,UklGRoYDAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFZrb97mhRAIghAIghAGM4OGgcWgZdAxKARDMARBEAT1a4ktnbPfETEBGEvl+lBzd+vtuhGirlX9bL9SBG4+tpVZ3Hy88ozl7nPvNIzVZysPunjEOqR6zDqgetR6qnrceuLikX8OkYUyOqIeux+oHl3+IA1ny7e7x5cv5Alt+SgZXD40RQewek4G9iQCtCQNsCSG1bMSp9lKmiJp5F9V0pQtDVOaFZbEgJakAZJkBzjJCqCnUACQFOVjsQz0AUlwx9fFwil9g4QT/N2DKQ6ShTI6ghJqx3EJJDgrYQTnJYhgpITYMZZ1mjJG0++kx4KJrBMaY3JpgxojIN36KZUVUWm7tW7ubvq4FcJYVlA4IFQCAACwDQCdASo5ADgAPpFAmEklo6IhLBqpmLASCWMAzAF4uAD5AIKZs+LcuBvEAWzOj/kNta0F3F6sk1ugOwpmtNqD/sW4nOpjFRHiEzF1/tTWRIjZLD4zT/QrqmOGXGIef4d7DpZTPCm3nLRf/BMY9F3rYI08k8gAAP68YPlLB92eDefAsq7wnsv8XJujGZUd87o74NjBYG8YDBUWUCNJ6PPkqN3BMOLzJRCSVpCA674JVOZYGDg/pEju8xKJdw4om9KtyBw12GPOEkAAQ1SBCP6ZMxY69Y1P/fD78OfEzJnxAXL1INk5rcBOC/O4U/5b3NDKAe6jskmIJqedrc7xaMQMAXuN3Tw41Ug+9AP7T8oB1NYg742IrisAydhZw8fiMPNqyb5YZZFeuEOSWai1Z13CDdYTl8ezeqTrOgY4xPn5cLYpDkr1wzcCVP8Lzr3Z1fnYVy7ftiRvFLxaxDmeVLgjfxy/SDpXi+qQs+arp5NYwPZRV8Kk+KH69hvXy+AYvcdHuAnfwnznTVZYRsHPjaloUGSoohgxam+uwIuyczZgDX+wXa1Dm86hKCEQRF8kaehvsjLSmPyIaFseniOabQNyNUAOQRg+pAfGwVYYnEeZZM0K5xKuhZ/NFzvgRYi89CntmE5PWIzIfZBIClsu5K0e+5wCBdb7UGNokBjz34bmzqXYpkHYnL9Me87Dz96P/+EdD2pekhfgnTQc6S4v8NcD/9sz+bRB89CmriAfc56VjMmzan+oZUMY3OfKbEvbh022DaKqDYSmmicHYWIjKnHt+gAAAA== 1x, data:image/webp;base64,UklGRkoHAABXRUJQVlA4WAoAAAAQAAAAcAAAbwAAQUxQSAcCAAABkFbbTh5KVwISkFAJSMDBi5PioDigTpCAhEhAQt7M9INCstb8jIgJwORuo1QqcxcR6dxqSXGD2o6OJoNbIa9P2Jt83I6gidtZpuTDKxGqTFyjAtRkcqbFIsuCTAuFKouyX8QdsnDxKwSWpZmmc4csf7i5PIuC7Gf66aJij/PsouY+yyGK7nMUUbXMUETZ8l0RdctXuyh8fLOLyvsXUZT+Gee7Vt2Pcixqsxt0iOLHGBLVwwjPurEbUET5450X9cMr1q++ITEwvmAL+BmJifSIbWhPohgZHlQr6p0XM91NtiPdsB18FcTQcJEtSRfNkvaPF1MdALKFABRbMoBmSwMgxjps1myI1hCSNQmnNQXVmopmDYPt6dZ0iLn/p7o1HWwN29NQrak4rSlI1iSQNRGbNRucNQCaLQ1AtqUAIFsIgLPFA0CzpOHfZEm+CJaEC7AdjOtkR75xdvgbVCsq7oMV8QGaDYynZAM9AlvAeB4toBeo+jHeBv38K2TtCt471o39AATdCEOzZhljHevFbhB816p7DCetIj5MOiV8mjVK+PjU58TnpzYnJjx1OTFl0iRj0qRHwrSx69AJE3vWgD2mdnm97DA78VocsKA/V8oOa3pepQasS7wCR6xNPFsjrB/rTDVAR595Dk4OiobcvmopQF1PZxvVMjmovcVUauP+T2euJdHmMDcAVlA4IBwFAACQHQCdASpxAHAAPpE+mEglo6KhrJUceLASCWUGcBPgFsW+8Gc7ctV3tv/zfSoMILys8VYv3kPsEZz/DewUnfP4/X+cQDI1PxCbuKNop/GVV2gj4neO98MBF6cSKLE5sQKdalOpdr2JNRFMkjqKBu90Gu7kbxVKbsHdUqm/bYCmiJC1/V32u6BS5t3TLhuiNGJZUkUa4jt/CV1n8NC2y0veoNtF10EnglOE4XuNA0xAR9kkfupyXZNG1vxr3gY8697BS4iITCpkxmC24MVlW7beookaMiIP+HMHc48o+eL0GLeCwhbTSgg/l4d9y2fKRI/Kp7nUAAD+/F1//xFj//F8//xbh/xWSWHkZPnWklJYK+OfIbTG5yUmYGKP6ZSgYrruIFY3g+P9qRbVhPHJnju0zXu5DfqLYyQMFtDbTnIvmcz/bZDXUJxUwPI6mh0KXXL4414Im6gm16aF8FcoFjkuXKob8507wCMFZhYek3qS+cXpFY9Yw96GN4xz+Aj///xWH/8W4f8TUsVL/q4Ob/+ABbfhYBox5ggrO3aDXcrmwZ6RnyF2LjXmSJhMyn5E1TPNM/fgKvILLi/fToSvbm3XxHDJfgmHNCn6wROMBjmtAXcpg3eAA5/fiqfME+sGU/NVDiGSwku/flTvFviI0umQRlFHAFEtoOp+LJqoFP2y3MF4ic4Fnw1fMUHUZAltTmZrL+kU6GvWqZs2yausfhKPPI5aetTuRuwNGvi3iPLJ72mrpBIUK7+hy0jTgDgRHVowmpUdTLvjzq0aNLq/5QzVHKbsONzmQbsBZECoRAJ+EAdRPIHoHAel+lCvX4gfKWbgUHbDNWszBqRxL1FmajY7nTHq6g3Qj6y45xs2tZnIUahzQMndy8AU/iaS1qV4GAbNSxUeUeAjSvMHUKOC80D7SOqbBwBXRByxjetWJ9bZgZAvD3+zwYg+qqDyqsQb5THlAC2ND4Z1AL8C44fGkDQ6dX9TMsUAu+agwdICRiYhXjN0W9Gj7g/1eVuHHl6pvOpmkqqbtcFFyiZyykjOfTp086bCbbBpmcoAOzogOOLUg6+HnCVBhu0Q8BisGtL0duD/pd68a+0b3p69tfk+AfD61Nv2X5EAvssbe2naKA138XlLjCKqe4MY/J1wCP1PqgB/SUMqlxgTcM6bX4Sl2HQL6Le2l5JRKa3hU6LB1IvcQv6kokgc3RzjPem9GbQyC3yuQepPg8DZrMoee/iSab2FhXNkiYA/glfyXdKmCfwbknqJVCBmM0e4LvqrYh1aHd0GFeffGpnhmk9V57FfB7nCW3DMEAaeDQ3aATn5hFnNnNVyVTP/8CeLnL/SO7J/M07KBHDZt3LBHNQwYv6U5zp3UWnP0GvFfdGQBEVTBbI6T9YptdkUeALO3qg9osk5RjhpwbLiw5JKdgt1osAWgPfPJKq2iLEmuFaWU1BAE0KwA4hpWvOSX6oXr8DUuILQc2EUEmcrQL1u3tL5HpqblSjVkTe5lMhpNfuDJfps7+VGh5MWZ++s19NoCSkY7MHsluRb7b3mIxR/rkoy3GWxBNATFrbqf+efNWpcdiZE5DWsLorxcWHaYz+8E4KbiHz3hajvBhumJjVgl2GSHb0K8cnNNWLF730kcLQ78JuGAK1+kdCHPc/SODv6utVoOmaj67/7FPCeRDWytZWSVgsstg3u1un1FEeCiMrS5u4nW1IRBINEYZU8QLJdDOBU0CUqOcOw10cgGJ0ZO4AAAAA= 2x, /project-group-9/assets/victoria_romashenko-db4ab05a.png 1x, /project-group-9/assets/victoria_romashenko2x-89ebb565.png 2x"
-          src="/project-group-9/assets/victoria_romashenko-db4ab05a.png"
-          alt="VR"
-        />
+        <picture class="reviews-picture">
+          <source
+            srcset="data:image/webp;base64,UklGRoYDAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFZrb97mhRAIghAIghAGM4OGgcWgZdAxKARDMARBEAT1a4ktnbPfETEBGEvl+lBzd+vtuhGirlX9bL9SBG4+tpVZ3Hy88ozl7nPvNIzVZysPunjEOqR6zDqgetR6qnrceuLikX8OkYUyOqIeux+oHl3+IA1ny7e7x5cv5Alt+SgZXD40RQewek4G9iQCtCQNsCSG1bMSp9lKmiJp5F9V0pQtDVOaFZbEgJakAZJkBzjJCqCnUACQFOVjsQz0AUlwx9fFwil9g4QT/N2DKQ6ShTI6ghJqx3EJJDgrYQTnJYhgpITYMZZ1mjJG0++kx4KJrBMaY3JpgxojIN36KZUVUWm7tW7ubvq4FcJYVlA4IFQCAACwDQCdASo5ADgAPpFAmEklo6IhLBqpmLASCWMAzAF4uAD5AIKZs+LcuBvEAWzOj/kNta0F3F6sk1ugOwpmtNqD/sW4nOpjFRHiEzF1/tTWRIjZLD4zT/QrqmOGXGIef4d7DpZTPCm3nLRf/BMY9F3rYI08k8gAAP68YPlLB92eDefAsq7wnsv8XJujGZUd87o74NjBYG8YDBUWUCNJ6PPkqN3BMOLzJRCSVpCA674JVOZYGDg/pEju8xKJdw4om9KtyBw12GPOEkAAQ1SBCP6ZMxY69Y1P/fD78OfEzJnxAXL1INk5rcBOC/O4U/5b3NDKAe6jskmIJqedrc7xaMQMAXuN3Tw41Ug+9AP7T8oB1NYg742IrisAydhZw8fiMPNqyb5YZZFeuEOSWai1Z13CDdYTl8ezeqTrOgY4xPn5cLYpDkr1wzcCVP8Lzr3Z1fnYVy7ftiRvFLxaxDmeVLgjfxy/SDpXi+qQs+arp5NYwPZRV8Kk+KH69hvXy+AYvcdHuAnfwnznTVZYRsHPjaloUGSoohgxam+uwIuyczZgDX+wXa1Dm86hKCEQRF8kaehvsjLSmPyIaFseniOabQNyNUAOQRg+pAfGwVYYnEeZZM0K5xKuhZ/NFzvgRYi89CntmE5PWIzIfZBIClsu5K0e+5wCBdb7UGNokBjz34bmzqXYpkHYnL9Me87Dz96P/+EdD2pekhfgnTQc6S4v8NcD/9sz+bRB89CmriAfc56VjMmzan+oZUMY3OfKbEvbh022DaKqDYSmmicHYWIjKnHt+gAAAA== 1x, data:image/webp;base64,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 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-group-9/assets/victoria_romashenko-db4ab05a.png 1x, /project-group-9/assets/victoria_romashenko2x-89ebb565.png 2x"
+          />
+          <img src="/project-group-9/assets/victoria_romashenko-db4ab05a.png" alt="woman" />
+        </picture>
+
         <div class="container-title-text-person">
           <h3 class="title">Victoria Romashenko</h3>
           <p class="title-text">
@@ -360,12 +437,17 @@
         </div>
       </li>
       <li class="reviews-item">
-        <img
-          class="reviews-picture"
-          srcset="data:image/webp;base64,UklGRqQDAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFZrb97mhRAIghAIghAGM4OGgcWgZdAxKARDMARBEAT1a4ktnbPfETEBGEvl+lBzd+vtuhGirlX9bL9SBG4+tpVZ3Hy88ozl7nPvNIzVZysPunjEOqR6zDqgetR6qnrceuLikX8OkYUyOqIeux+oHl3+IA1ny7e7x5cv5Alt+SgZXD40RQewek4G9iQCtCQNsCSG1bMSp9lKmiJp5F9V0pQtDVOaFZbEgJakAZJkBzjJCqCnUACQFOVjsQz0AUlwx9fFwil9g4QT/N2DKQ6ShTI6ghJqx3EJJDgrYQTnJYhgpITYMZZ1mjJG0++kx4KJrBMaY3JpgxojIN36KZUVUWm7tW7ubvq4FcJYVlA4IHICAABQDACdASo5ADgAPpE8mUiloyKhLBgMALASCWIAzXw+5zq4FAxb5PDeCWyGhMdLMKOMboZDDpImXCXD6zxScAE++szHaCMHyBlHmDybjIQpIVGNoUhnoOhE08IlY+W+ukdYOHeOwDVofdrQgAD+8Bgf/7YH//a43//tWnik8m8RIL0Mu/5hltjWF45B89Xx2XxGk6g0fuJVXkz1nnldQcZjEiJ6icm1zhdYtbzigM3HHRXbfwOBVVjldn0yWxqZcGeY/p6Y4COPbCC3Lx71lQNs56hgJ5F6dKnuAZ3XkfEKl6py9ew3dxmTRf/4iNMnSkLUaHAOvw550CW7yn2kSiZ5y386vlmDcm8PtZQTYNeYsDxoT6uEcA4PxLq0iFQ5AwGtp2FaSPsegNlMF/5yJY7dQw00jLNhQbrZMdZTcf3PXiaWdmApfyRbyb8+CKWQ7UNPGmUu1vn2a015uj70EirMwe0ERba6AGj7n/mrqYv7fxh7U/9/t/81v9WXZsvsS9+NXtz4Xr8ogLCfa55u+rIcGzeiDqtvTkathKWdpfXl06fvdM23sObGFPlQ6WwTAU27muRr6MngHaFkVSeq6vcNL0rocf/Anp6FvSzLu6gnHPLVqxSiGGNVxBpvMU3AubbpkA7+FHkqNc/ntglgqgMg3pgT/70pQNDaSh5m6GHl/iNCtdSZJMZ//Cj//y+sZC0VdfyJ1a8qOGo41MXq2xfOIy17qmwbHooJX1D6oln1QfluwyCDVy5BZN/v5NYXEWpnDtKgudMhnKIZHeQ2hZANuflH4kSGMH9aRKfB/A/OrDNtoNAOB6egzv/I7AEuRNAAAA== 1x, data:image/webp;base64,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 2x, /project-group-9/assets/ihor_tkachuk-f738fcac.png 1x, /project-group-9/assets/ihor_tkachuk2x-acb9c9a1.png 2x"
-          src="/project-group-9/assets/ihor_tkachuk-f738fcac.png"
-          alt="IT"
-        />
+        <picture class="reviews-picture">
+          <source
+            srcset="data:image/webp;base64,UklGRqQDAABXRUJQVlA4WAoAAAAQAAAAOAAANwAAQUxQSAwBAAABgFZrb97mhRAIghAIghAGM4OGgcWgZdAxKARDMARBEAT1a4ktnbPfETEBGEvl+lBzd+vtuhGirlX9bL9SBG4+tpVZ3Hy88ozl7nPvNIzVZysPunjEOqR6zDqgetR6qnrceuLikX8OkYUyOqIeux+oHl3+IA1ny7e7x5cv5Alt+SgZXD40RQewek4G9iQCtCQNsCSG1bMSp9lKmiJp5F9V0pQtDVOaFZbEgJakAZJkBzjJCqCnUACQFOVjsQz0AUlwx9fFwil9g4QT/N2DKQ6ShTI6ghJqx3EJJDgrYQTnJYhgpITYMZZ1mjJG0++kx4KJrBMaY3JpgxojIN36KZUVUWm7tW7ubvq4FcJYVlA4IHICAABQDACdASo5ADgAPpE8mUiloyKhLBgMALASCWIAzXw+5zq4FAxb5PDeCWyGhMdLMKOMboZDDpImXCXD6zxScAE++szHaCMHyBlHmDybjIQpIVGNoUhnoOhE08IlY+W+ukdYOHeOwDVofdrQgAD+8Bgf/7YH//a43//tWnik8m8RIL0Mu/5hltjWF45B89Xx2XxGk6g0fuJVXkz1nnldQcZjEiJ6icm1zhdYtbzigM3HHRXbfwOBVVjldn0yWxqZcGeY/p6Y4COPbCC3Lx71lQNs56hgJ5F6dKnuAZ3XkfEKl6py9ew3dxmTRf/4iNMnSkLUaHAOvw550CW7yn2kSiZ5y386vlmDcm8PtZQTYNeYsDxoT6uEcA4PxLq0iFQ5AwGtp2FaSPsegNlMF/5yJY7dQw00jLNhQbrZMdZTcf3PXiaWdmApfyRbyb8+CKWQ7UNPGmUu1vn2a015uj70EirMwe0ERba6AGj7n/mrqYv7fxh7U/9/t/81v9WXZsvsS9+NXtz4Xr8ogLCfa55u+rIcGzeiDqtvTkathKWdpfXl06fvdM23sObGFPlQ6WwTAU27muRr6MngHaFkVSeq6vcNL0rocf/Anp6FvSzLu6gnHPLVqxSiGGNVxBpvMU3AubbpkA7+FHkqNc/ntglgqgMg3pgT/70pQNDaSh5m6GHl/iNCtdSZJMZ//Cj//y+sZC0VdfyJ1a8qOGo41MXq2xfOIy17qmwbHooJX1D6oln1QfluwyCDVy5BZN/v5NYXEWpnDtKgudMhnKIZHeQ2hZANuflH4kSGMH9aRKfB/A/OrDNtoNAOB6egzv/I7AEuRNAAAA== 1x, data:image/webp;base64,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 2x"
+            type="image/webp"
+          />
+          <source
+            srcset="/project-group-9/assets/ihor_tkachuk-f738fcac.png 1x, /project-group-9/assets/ihor_tkachuk2x-acb9c9a1.png 2x"
+          />
+          <img src="/project-group-9/assets/ihor_tkachuk-f738fcac.png" alt="man" />
+        </picture>
+
         <div class="container-title-text-person">
           <h3 class="title">Ihor Trachuk</h3>
           <p class="title-text">
