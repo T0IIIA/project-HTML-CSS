@@ -11,17 +11,23 @@
     </div>
     <ul class="reviews-list">
       <li class="reviews-item">
-        <img
-          class="reviews-picture"
-          srcset="
-            ./img/reviews/john_wax.webp   1x,
-            ./img/reviews/john_wax2x.webp 2x,
-            ./img/reviews/john_wax.png   1x,
-            ./img/reviews/john_wax2x.png 2x
-          "
-          src="./img/reviews/john_wax.png"
-          alt="JW"
-        />
+        <picture class="reviews-picture">
+          <source
+            srcset="
+              ./img/reviews/john_wax.webp   1x,
+              ./img/reviews/john_wax2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./img/reviews/john_wax.png   1x,
+              ./img/reviews/john_wax2x.png 2x
+            "
+          />
+          <img src="./img/reviews/john_wax.png" alt="man" />
+        </picture>
+
         <div class="container-title-text-person">
           <h3 class="title">John Wax</h3>
           <p class="title-text">
@@ -33,17 +39,23 @@
       </li>
 
       <li class="reviews-item">
-        <img
-          class="reviews-picture"
-          srcset="
-            ./img/reviews/victoria_romashenko.webp   1x,
-            ./img/reviews/victoria_romashenko2x.webp 2x,
-            ./img/reviews/victoria_romashenko.png   1x,
-            ./img/reviews/victoria_romashenko2x.png 2x
-          "
-          src="./img/reviews/victoria_romashenko.png"
-          alt="VR"
-        />
+        <picture class="reviews-picture">
+          <source
+            srcset="
+              ./img/reviews/victoria_romashenko.webp   1x,
+              ./img/reviews/victoria_romashenko2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./img/reviews/victoria_romashenko.png   1x,
+              ./img/reviews/victoria_romashenko2x.png 2x
+            "
+          />
+          <img src="./img/reviews/victoria_romashenko.png" alt="woman" />
+        </picture>
+
         <div class="container-title-text-person">
           <h3 class="title">Victoria Romashenko</h3>
           <p class="title-text">
@@ -54,17 +66,23 @@
         </div>
       </li>
       <li class="reviews-item">
-        <img
-          class="reviews-picture"
-          srcset="
-            ./img/reviews/ihor_tkachuk.webp   1x,
-            ./img/reviews/ihor_tkachuk2x.webp 2x,
-            ./img/reviews/ihor_tkachuk.png   1x,
-            ./img/reviews/ihor_tkachuk2x.png 2x
-          "
-          src="./img/reviews/ihor_tkachuk.png"
-          alt="IT"
-        />
+        <picture class="reviews-picture">
+          <source
+            srcset="
+              ./img/reviews/ihor_tkachuk.webp   1x,
+              ./img/reviews/ihor_tkachuk2x.webp 2x
+            "
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./img/reviews/ihor_tkachuk.png   1x,
+              ./img/reviews/ihor_tkachuk2x.png 2x
+            "
+          />
+          <img src="./img/reviews/ihor_tkachuk.png" alt="man" />
+        </picture>
+
         <div class="container-title-text-person">
           <h3 class="title">Ihor Trachuk</h3>
           <p class="title-text">
