@@ -1,11 +1,11 @@
 {
-  "name": "project-group-9",
+  "name": "project-HTML-CSS",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-group-9/",
+    "build": "vite build --base=/project-HTML-CSS/",
     "preview": "vite preview"
   },
   "devDependencies": {
